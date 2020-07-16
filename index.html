@@ -14,41 +14,66 @@
     <title>Portfolio Josca W.</title>
   </head>
   <body>
-    <section>
-      <div class="img-header">
-        <div>
-          <h1>Josca Wijtenburg</h1>
+    <main>
+      <!--Image header / Jumbotron-->
+      <section>
+        <div class="jumbotron">
+          <div>
+            <h1>Josca Wijtenburg</h1>
+            <hr class="my-4" />
+            <p class="lead">Ich bin</p>
+          </div>
         </div>
-      </div>
-    </section>
-    <section>
-      <nav class="navbar">
-        <p class="navbar-brand">
-          <img src="assets/me.jfif" alt="my brand" width="40px" />
-        </p>
-        <ul class="nav">
-          <li class="nav-item"><a href="#" class="nav-link">Über mich</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Bildungsweg</a></li>
-          <li class="nav-item dropdown">
-            <a
-              href="#"
-              class="nav-link dropdown-toggle"
-              data-toggle="dropdown"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Passion</a
-            >
-            <div class="dropdown-menu">
-              <a href="#" class="dropdown-item">Storytelling</a>
-              <a href="#" class="dropdown-item">Grafiken</a>
-              <a href="#" class="dropdown-item">Trainerin</a>
-            </div>
-          </li>
-        </ul>
-      </nav>
-    </section>
-
+      </section>
+      <!--Navigation inkl. Dropdown-->
+      <section>
+        <nav class="navbar">
+          <p class="navbar-brand">
+            <img src="assets/me.jfif" alt="my brand" width="40px" />
+          </p>
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="#über-mich" class="nav-link">Über mich</a>
+            </li>
+            <li class="nav-item">
+              <a href="#bildungsweg" class="nav-link">Bildungsweg</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#passion"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Passion</a
+              >
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Storytelling</a>
+                <a href="#" class="dropdown-item">Grafiken</a>
+                <a href="#" class="dropdown-item">Trainerin</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <!--Über mich-->
+      <section id="über-mich">
+        <h2>Über mich</h2>
+      </section>
+      <!--Bildungsweg-->
+      <section id="bildungsweg">
+        <h2>Bildungsweg</h2>
+      </section>
+      <!--Passion-->
+      <section id="passion">
+        <h2>Passion</h2>
+      </section>
+    </main>
+    <!--Copyright + Socials-->
+    <footer>
+      <small>© Josca Wijtenburg</small>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
