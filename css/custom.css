@@ -1,4 +1,13 @@
 @charset "UTF-8";
+.img-header {
+  background-image: url("https://joscawij.github.io/portfolio/assets/img-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 300px;
+  text-align: center;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
