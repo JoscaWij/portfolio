@@ -4,5 +4,14 @@ $body-color: white;
 $primary: blue;
 $font-family-base: Arial;
 
+.img-header {
+  background-image: url("https://joscawij.github.io/portfolio/assets/me-background.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 300px;
+  text-align: center;
+}
+
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
