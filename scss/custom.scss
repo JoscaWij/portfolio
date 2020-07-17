@@ -1,7 +1,6 @@
 // Your variable overrides
-$body-bg: #000;
+$body-bg: #e9ecef;
 $body-color: white;
-$primary: blue;
 $font-family-base: Arial;
 
 $jumbotron-color: black;
@@ -33,6 +32,14 @@ h1:after {
   bottom: -5px;
   border-bottom: 1px solid black;
   left: 30%;
+}
+
+$navbar-brand-padding-y: 0;
+
+$link-color: #e9ecef;
+$link-hover-color: darken($link-color, 30%);
+.navbar {
+  background-color: black;
 }
 
 // Include all Bootstrap
