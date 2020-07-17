@@ -30,6 +30,20 @@ h1:after {
   background-color: black;
 }
 
+#über-mich {
+  background-color: white;
+  color: grey;
+}
+
+h2 {
+  padding: 30px 30px;
+  color: #212529;
+}
+
+.handwritten {
+  font-family: "Reenie Beanie", cursive;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
