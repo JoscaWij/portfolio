@@ -5,20 +5,34 @@ $primary: blue;
 $font-family-base: Arial;
 
 $jumbotron-color: black;
-$jumbotron-bg: grey;
+$jumbotron-bg: #e9ecef;
 $jumbotron-padding: 0px;
+$border-radius-lg: 0;
 .jumbotron {
   background-image: url("../assets/jumbotron-bg-pic.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position-x: 90%;
-  height: 250px;
+  background-position-x: 99.8%;
+  height: 200px;
   text-align: center;
   margin: 0 auto;
 }
 
 #jumbotron-text {
-  padding-top: 3rem;
+  padding: 4rem 0;
+}
+
+h1 {
+  position: relative;
+}
+
+h1:after {
+  position: absolute;
+  content: "";
+  width: 40%;
+  bottom: -5px;
+  border-bottom: 1px solid black;
+  left: 30%;
 }
 
 // Include all Bootstrap
