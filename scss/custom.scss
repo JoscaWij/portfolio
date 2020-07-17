@@ -5,15 +5,20 @@ $primary: blue;
 $font-family-base: Arial;
 
 $jumbotron-color: black;
-$jumbotron-bg: red;
+$jumbotron-bg: grey;
+$jumbotron-padding: 0px;
 .jumbotron {
-  background-image: url("https://joscawij.github.io/portfolio/assets/jumbotron-img.png");
+  background-image: url("../assets/jumbotron-bg-pic.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 700px;
+  background-size: contain;
+  background-position-x: 90%;
+  height: 250px;
   text-align: center;
-  margin-bottom: 0;
+  margin: 0 auto;
+}
+
+#jumbotron-text {
+  padding-top: 3rem;
 }
 
 // Include all Bootstrap
