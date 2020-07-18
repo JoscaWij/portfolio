@@ -36,17 +36,17 @@ h1:after {
 }
 
 /*main*/
-/*Section "Über mich"*/
-#über-mich {
-  color: black;
-}
-
 h2 {
   padding: 30px 40px 10px;
   color: #e9ecef;
   font-family: "Fugaz One", cursive;
   text-shadow: -1.5px 0 black, 0 1.5px black, 1px 0 black, 0 -1px black;
   margin: 0 0;
+}
+
+/*Section "Über mich"*/
+#über-mich {
+  color: black;
 }
 
 .handwritten {
@@ -58,13 +58,27 @@ h2 {
 }
 
 /*Section "Bildungsweg"*/
+#bildungsweg {
+  background-color: #6c757d;
+}
+
 /*Section Passion inkl. carousel*/
+#passion {
+  background-color: #343a40;
+}
+
 .carousel-inner {
   text-align: center;
 }
 
+/*Section Kontakt*/
+#kontakt {
+  background-color: #212529;
+}
+
 /*Footer*/
 footer {
+  background-color: black;
   text-align: center;
   bottom: 0;
 }
@@ -146,7 +160,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 
 p {
@@ -422,7 +436,7 @@ template {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   font-weight: 500;
   line-height: 1.2;
 }

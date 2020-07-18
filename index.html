@@ -64,9 +64,9 @@
               >Passion</a
             >
             <div class="dropdown-menu">
-              <a href="#" class="dropdown-item">Storytelling</a>
-              <a href="#" class="dropdown-item">Grafiken</a>
-              <a href="#" class="dropdown-item">Trainerin</a>
+              <a href="#storytelling" class="dropdown-item">Storytelling</a>
+              <a href="#grafiken" class="dropdown-item">Grafiken</a>
+              <a href="#trainerin" class="dropdown-item">Trainerin</a>
             </div>
           </li>
           <li class="nav-item">
@@ -87,11 +87,11 @@
         </p>
       </section>
       <!--Bildungsweg-->
-      <section id="bildungsweg" class="bg-gray-600">
+      <section id="bildungsweg">
         <h2>Bildungsweg</h2>
       </section>
       <!--Passion-->
-      <section id="passion" class="bg-gray-800">
+      <section id="passion">
         <h2>Passion</h2>
         <!--Carousel-->
         <section
@@ -100,56 +100,48 @@
           data-ride="carousel"
         >
           <container class="carousel-inner">
-            <div class="carousel-item active">
+            <div id="storytelling" class="carousel-item active">
               <p>Storytelling</p>
             </div>
-            <div class="carousel-item">
+            <div id="grafiken" class="carousel-item">
               <p>
                 Grafiken
               </p>
             </div>
-            <div class="carousel-item">
+            <div id="trainerin" class="carousel-item">
               <p>Trainerin</p>
             </div>
           </container>
-          <container>
-            <!--Nav-buttons-->
-            <!--previous-->
-            <a
-              class="carousel-control-prev"
-              href="#carousel-passion"
-              role="button"
-              data-slide="prev"
-            >
-              <span
-                class="casousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">p</span>
-            </a>
-            <!--next-->
-            <a
-              class="carousel-control-next"
-              href="#carousel-passion"
-              role="button"
-              data-slide="next"
-            >
-              <span
-                class="casousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">n</span>
-            </a>
-          </container>
+          <!--Nav-buttons-->
+          <!--previous-->
+          <a
+            class="carousel-control-prev"
+            href="#carousel-passion"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <!--next-->
+          <a
+            class="carousel-control-next"
+            href="#carousel-passion"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </section>
       </section>
       <!--Kontakt-->
-      <section id="kontakt bg-black">
+      <section id="kontakt">
         <h2>Kontakt</h2>
       </section>
     </main>
     <!--Copyright-->
-    <footer>
+    <footer class="bg-black">
       <small>© Josca Wijtenburg</small>
     </footer>
     <!-- Optional JavaScript -->
