@@ -5,7 +5,7 @@ $font-family-base: "Roboto Mono", monospace;
 
 /*Jumbotron*/
 $jumbotron-color: black;
-$jumbotron-bg: #e9ecef;
+/*$jumbotron-bg: #e9ecef;*/
 $jumbotron-padding: 0px;
 $border-radius-lg: 0;
 .jumbotron {
@@ -56,7 +56,6 @@ $dropdown-link-hover-bg: #e9ecef;
 
 /*Section "Über mich"*/
 #über-mich {
-  background-color: white;
   color: black;
 }
 
@@ -78,14 +77,8 @@ h2 {
 }
 
 /*Section "Bildungsweg"*/
-#bildungsweg {
-  background-color: #6c757d;
-}
 
-/*Section Passion*/
-#passion {
-  background-color: #343a40;
-}
+/*Section Passion inkl. carousel*/
 
 .carousel-inner {
   text-align: center;
@@ -93,7 +86,6 @@ h2 {
 
 /*Footer*/
 footer {
-  background-color: black;
   text-align: center;
   bottom: 0;
 }
