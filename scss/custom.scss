@@ -32,7 +32,7 @@ h1:after {
   position: absolute;
   content: "";
   width: 40%;
-  bottom: -5px;
+  bottom: -2px;
   border-bottom: 1px solid black;
   left: 30%;
 }
@@ -99,6 +99,10 @@ details {
   text-align: center;
 }
 
+ul {
+  text-align: left;
+}
+
 /*Section Passion inkl. carousel*/
 #passion {
   background-color: #343a40;
@@ -106,6 +110,21 @@ details {
 
 .carousel-inner {
   text-align: center;
+}
+
+.carousel-inner p {
+  padding: 10px 0;
+}
+
+#storytelling {
+  padding: 0 10%;
+}
+.card {
+  margin: 5px;
+}
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 /*Section Kontakt*/
