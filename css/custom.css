@@ -2,7 +2,7 @@
 /*Jumbotron*/
 /*$jumbotron-bg: #e9ecef;*/
 .jumbotron {
-  background-image: url("../assets/jumbotron-bg-pic.png");
+  background-image: url("/assets/jumbotron-bg-pic.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: 100%;
@@ -67,11 +67,16 @@ h2 {
   background-color: #e9ecef;
   border: solid black 2px;
   border-radius: 10px;
-  padding: 5px;
+  padding: 5px 5px 5px 15px;
   color: black;
   margin: 5px auto;
+  text-align: left;
+  width: 21.5rem;
+}
+
+details {
+  font-size: 0.8rem;
   text-align: center;
-  width: 20rem;
 }
 
 /*Section Passion inkl. carousel*/
