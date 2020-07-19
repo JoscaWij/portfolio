@@ -92,7 +92,7 @@ ul {
   text-align: center;
 }
 
-.carousel-inner p {
+.carousel-inner .intro {
   padding: 20px 10px;
 }
 
@@ -100,11 +100,6 @@ ul {
   padding: 0 10% 30px;
 }
 
-/*
-#storytelling {
-  padding: 0 10% 30px;
-}
-*/
 .card {
   margin: 5px;
 }
@@ -112,6 +107,22 @@ ul {
 .responsive {
   width: 100%;
   height: auto;
+}
+
+.read-button {
+  color: black;
+  border: black solid 2px;
+  border-radius: 10px;
+  width: 70%;
+  margin: 5px auto;
+  font-size: 10px;
+  padding: 2px 3px;
+  transition: 0.8s;
+}
+
+.read-button:hover {
+  color: white;
+  background-color: black;
 }
 
 /*Section Kontakt*/
@@ -499,11 +510,11 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 h3, .h3 {
-  font-size: 1.75rem;
+  font-size: 1.4rem;
 }
 
 h4, .h4 {

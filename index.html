@@ -3,6 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
+    <link rel="shortcut icon" href="./assets/brand.png" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -30,7 +31,7 @@
     />
 
     <!--Metadaten-->
-    <title>Portfolio Josca W.</title>
+    <title>Josca Wijtenburg</title>
   </head>
   <body>
     <header>
@@ -53,6 +54,10 @@
           <li class="nav-item">
             <a href="#bildungsweg" class="nav-link">Bildungsweg</a>
           </li>
+          <li class="nav-item">
+            <a href="#passion" class="nav-link">Passion</a>
+          </li>
+          <!--
           <li class="nav-item dropdown">
             <a
               href="#"
@@ -68,7 +73,7 @@
               <a href="#grafiken" class="dropdown-item">Grafiken</a>
               <a href="#trainerin" class="dropdown-item">Trainerin</a>
             </div>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a href="#kontakt" class="nav-link">Kontakt</a>
           </li>
@@ -131,13 +136,13 @@
               class="carousel-item active carousel-section"
             >
               <h3>Storytelling</h3>
-              <p>
+              <p class="intro">
                 Gute Geschichten lassen mich nicht mehr los. Ich bin deshalb
                 selbst als Journalistin und Hobby-Kurzgeschichten-Schreiberin
                 aktiv. Hier siehst du zwei meiner Arbeiten: Ein Interview für
                 den Blog der Hamburg Media School und einen Artikel über den
-                Anime Black Clover für die ProSiebenMaxx Website. Viel Spaß beim
-                Lesen.
+                Anime Black Clover für die ProSiebenMaxx Webseite. Viel Spaß
+                beim Lesen.
               </p>
               <container class="row">
                 <a
@@ -149,6 +154,7 @@
                     alt="Blog der Hamburg Media School - Artikel 'Keine Toleranz für Intoleranz'"
                     class="responsive"
                   />
+                  <p class="read-button">Jetzt lesen</p>
                 </a>
                 <a
                   href="https://www.prosiebenmaxx.de/anime/black-clover/alles-ueber-das-black-clover-universum"
@@ -159,6 +165,7 @@
                     alt="Artikel für die Webseite Prosieben Maxx zum Anime Black Clover"
                     class="responsive"
                   />
+                  <p class="read-button">Jetzt lesen</p>
                 </a>
               </container>
             </div>
@@ -166,20 +173,55 @@
               <h3>
                 Grafiken
               </h3>
+              <p class="intro">
+                Geschichten kann man auch in Bildern erzählen. Und um
+                Informationen nicht nur als Text präsentieren zu können,
+                probiere ich mich immer wieder als Grafikerin. Hier einige
+                meiner Kreationen für das
+                <a href="https://www.redbutton.de/"><i>red button-Portal</i></a>
+                der Sendergruppe ProSiebenSat1.
+              </p>
+              <container class="row">
+                <img
+                  src="./assets/CC_2_1.JPG"
+                  alt="Zitat Charlie Chaplin"
+                  class="col"
+                />
+                <img
+                  src="./assets/SB_Anime_easy-Cosplay_Ruffy.jpg"
+                  alt="Illustration Cosplay-Kostüm des Anime-Charakters Ruffy aus One Piece"
+                  class="col"
+                />
+                <img
+                  src="./assets/MHA_Frosch.jpg"
+                  alt="Illustration Fähigkeit Frosch aus dem Anime My Hero Academia"
+                  class="col"
+                />
+              </container>
+              <small>© redbutton ProSiebenSat1.</small>
             </div>
             <div id="trainerin" class="carousel-item carousel-section">
               <h3>Trainerin</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Necessitatibus dolores ut nisi laudantium quae deleniti
-                perspiciatis vel aliquam pariatur id beatae iste ratione
-                suscipit officiis ipsam non, ea ipsa? Corrupti?
+              <p class="intro">
+                Jeder Mensch sollte seine Träume verfolgen können. Seit 2015
+                engagiere ich mich für die Organisation
+                <a href="https://rockyourlife.de/das-machen-wir/"
+                  ><i>Rock Your Life!</i></a
+                >, welche sich für Bildungsgerechtigkeit und Potentialentfaltung
+                einsetzt. Seit 2017 bin ich als Trainerin tätig. In jedem
+                Training darf ich eine Gruppe von bis zu 30 Personen begleiten
+                ihre Stärken zu finden. Der Spaß und die strahlenden Augen, wenn
+                jemand versteckte Potentiale in sich entdeckt, sind unbezahlbar.
               </p>
               <details>
                 <summary>Mehr Infos über Rock Your Life!</summary>
                 <iframe
-                  src="https://www.youtube.com/watch?v=A9DZx9GWUZs"
+                  width="640"
+                  height="360"
+                  src="https://www.youtube.com/embed/1qzVJifD9T0"
                   frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
                 ></iframe>
               </details>
             </div>
@@ -216,9 +258,9 @@
             id="img-brand-text"
             src="./assets/brand-text.png"
             alt="Markenlogo inklusive Name"
-            class="col responsive"
+            class="col-4"
           />
-          <contrainer class="col">
+          <contrainer class="col-8">
             <h2>Kontakt</h2>
             <section>
               <!--Kontakt-icons and links-->
