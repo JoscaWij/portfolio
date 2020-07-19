@@ -9,7 +9,7 @@ $jumbotron-color: black;
 $jumbotron-padding: 0px;
 $border-radius-lg: 0;
 .jumbotron {
-  background-image: url("/assets/jumbotron-bg-pic.png");
+  background-image: url(../assets/jumbotron-bg-pic.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: 100%;
@@ -116,9 +116,14 @@ ul {
   padding: 20px 10px;
 }
 
+.carousel-section {
+  padding: 0 10% 30px;
+}
+/*
 #storytelling {
   padding: 0 10% 30px;
 }
+*/
 .card {
   margin: 5px;
 }
