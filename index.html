@@ -11,24 +11,48 @@
     <!-- Custom Bootstrap CSS -->
     <link rel="stylesheet" href="css/custom.css" />
 
+    <!--Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Metadaten-->
     <title>Portfolio Josca W.</title>
   </head>
   <body>
-    <section>
-      <div class="img-header">
-        <div>
-          <h1>Josca Wijtenburg</h1>
+    <header>
+      <!--Image header / Jumbotron-->
+      <section>
+        <div class="jumbotron bg-gray-200">
+          <div id="jumbotron-text">
+            <h1>Josca Wijtenburg</h1>
+            <p class="lead">Freelancerin</p>
+          </div>
         </div>
-      </div>
-    </section>
-    <section>
-      <nav class="navbar">
-        <p class="navbar-brand">
-          <img src="assets/me.jfif" alt="my brand" width="40px" />
-        </p>
+      </section>
+      <!--Navigation inkl. Dropdown-->
+      <nav class="navbar bg-black">
+        <img src="assets/brand.png" alt="my brand" width="60px" />
         <ul class="nav">
-          <li class="nav-item"><a href="#" class="nav-link">Über mich</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Bildungsweg</a></li>
+          <li class="nav-item">
+            <a href="#über-mich" class="nav-link">Über mich</a>
+          </li>
+          <li class="nav-item">
+            <a href="#bildungsweg" class="nav-link">Bildungsweg</a>
+          </li>
           <li class="nav-item dropdown">
             <a
               href="#"
@@ -40,15 +64,207 @@
               >Passion</a
             >
             <div class="dropdown-menu">
-              <a href="#" class="dropdown-item">Storytelling</a>
-              <a href="#" class="dropdown-item">Grafiken</a>
-              <a href="#" class="dropdown-item">Trainerin</a>
+              <a href="#storytelling" class="dropdown-item">Storytelling</a>
+              <a href="#grafiken" class="dropdown-item">Grafiken</a>
+              <a href="#trainerin" class="dropdown-item">Trainerin</a>
             </div>
+          </li>
+          <li class="nav-item">
+            <a href="#kontakt" class="nav-link">Kontakt</a>
           </li>
         </ul>
       </nav>
-    </section>
-
+    </header>
+    <main>
+      <!--Über mich-->
+      <section id="über-mich" class="bg-white">
+        <h2>Über mich</h2>
+        <p class="handwritten">
+          Hallo. Schön, dass du dich auf meine Seite verirrt hast. Mein Name ist
+          Josca. Ich bin 24, Studentin und nebenbei als freiberufliche
+          Journalistin und Hobby-Grafikerin tätig. Mein Herz schlägt für gute
+          Geschichten und Potentialentfaltung.
+        </p>
+      </section>
+      <!--Bildungsweg-->
+      <section id="bildungsweg">
+        <h2>Bildungsweg</h2>
+        <p class="box">2002-2006: Grundschule</p>
+        <p class="box">2006-2012: Realschule</p>
+        <p class="box">2012-2015: Bayrisches Gymnasium</p>
+        <div class="box">
+          <p>2015-2019: Universität Hoheneheim</p>
+          <details>
+            <summary>Vertiefungen</summary>
+            <ul>
+              <li>Medienpsychologie</li>
+              <li>Online Kommunikation</li>
+              <li>Wirtschaft</li>
+            </ul>
+          </details>
+        </div>
+        <div class="box">
+          <p>Seit 2019: Hamburg Media School</p>
+          <details>
+            <summary>Master of Business Administration</summary>
+            <p>Digital- und Medienmanagement</p>
+            <ul>
+              <li>Medienrecht</li>
+              <li>Marketing</li>
+              <li>Investition und Finanzierung</li>
+            </ul>
+          </details>
+        </div>
+      </section>
+      <!--Passion-->
+      <section id="passion">
+        <h2>Passion</h2>
+        <!--Carousel-->
+        <section
+          id="carousel-passion"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+        >
+          <container class="carousel-inner">
+            <div id="storytelling" class="carousel-item active">
+              <h3>Storytelling</h3>
+              <p>
+                Gute Geschichten lassen mich nicht mehr los. Ich bin deshalb
+                selbst als Journalistin und Hobby-Kurzgeschichten-Schreiberin
+                aktiv. Hier siehst du zwei meiner Arbeiten: Ein Interview für
+                den Blog der Hamburg Media School und einen Artikel über den
+                Anime Black Clover für die ProSiebenMaxx Website. Viel Spaß beim
+                Lesen.
+              </p>
+              <container class="row">
+                <a
+                  href="https://www.hamburgmediaschool.com/blog/keine-toleranz-fuer-intoleranz"
+                  class="col card"
+                >
+                  <img
+                    src="/assets/hms-blog.PNG"
+                    alt="Blog der Hamburg Media School - Artikel 'Keine Toleranz für Intoleranz'"
+                    class="responsive"
+                  />
+                </a>
+                <a
+                  href="https://www.prosiebenmaxx.de/anime/black-clover/alles-ueber-das-black-clover-universum"
+                  class="col card"
+                >
+                  <img
+                    src="/assets/black-clover-artikel.PNG"
+                    alt="Artikel für die Webseite Prosieben Maxx zum Anime Black Clover"
+                    class="responsive"
+                  />
+                </a>
+              </container>
+            </div>
+            <div id="grafiken" class="carousel-item">
+              <h3>
+                Grafiken
+              </h3>
+            </div>
+            <div id="trainerin" class="carousel-item">
+              <h3>Trainerin</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Necessitatibus dolores ut nisi laudantium quae deleniti
+                perspiciatis vel aliquam pariatur id beatae iste ratione
+                suscipit officiis ipsam non, ea ipsa? Corrupti?
+              </p>
+              <details>
+                <summary>Mehr Infos über Rock Your Life!</summary>
+                <iframe
+                  src="https://www.youtube.com/watch?v=A9DZx9GWUZs"
+                  frameborder="0"
+                ></iframe>
+              </details>
+            </div>
+          </container>
+          <!--Nav-buttons-->
+          <!--previous-->
+          <a
+            class="carousel-control-prev"
+            href="#carousel-passion"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <!--next-->
+          <a
+            class="carousel-control-next"
+            href="#carousel-passion"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </section>
+        <!--end carousel inner-->
+      </section>
+      <!--end section passion-->
+      <!--Kontakt-->
+      <section id="kontakt">
+        <container class="row">
+          <img
+            id="img-brand-text"
+            src="/assets/brand-text.png"
+            alt="Markenlogo inklusive Name"
+            class="col responsive"
+          />
+          <contrainer class="col">
+            <h2>Kontakt</h2>
+            <section>
+              <!--Kontakt-icons and links-->
+              <!--GitHub-->
+              <a href="https://github.com/JoscaWij" class="row kontakt-info">
+                <img
+                  src="/assets/github.svg"
+                  alt="GitHub Logo"
+                  height="50px"
+                  class="col-4 icons"
+                />
+                <p class="col-8">GitHub</p>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/josca-wijtenburg-457264160/"
+                class="row kontakt-info"
+              >
+                <!--LinkedIn-->
+                <img
+                  src="/assets/linkedin.svg"
+                  alt="LinkedIn Logo"
+                  height="50px"
+                  class="col-4 icons"
+                />
+                <p class="col-8">LinkedIn</p>
+              </a>
+              <a
+                href="https://www.xing.com/profile/Josca_Wijtenburg"
+                class="row kontakt-info"
+              >
+                <!--Xing-->
+                <img
+                  src="/assets/xing.svg"
+                  alt="Xing Logo"
+                  height="50px"
+                  class="col-4 icons"
+                />
+                <p class="col-8">Xing</p>
+              </a>
+            </section>
+          </contrainer>
+        </container>
+        <!--end row-->
+      </section>
+    </main>
+    <!--Copyright-->
+    <footer>
+      <small>© Josca Wijtenburg</small>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
