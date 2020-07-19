@@ -93,6 +93,16 @@ details {
   background-color: #212529;
 }
 
+/*funktioniert nicht*/
+.icons {
+  fill: #e9ecef;
+}
+
+.kontakt-info {
+  padding: 10px 0px;
+  margin-bottom: 20px;
+}
+
 /*Footer*/
 footer {
   background-color: black;
