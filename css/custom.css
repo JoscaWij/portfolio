@@ -125,10 +125,6 @@ ul {
   background-color: black;
 }
 
-.carousel-indicators li {
-  width: 30px;
-}
-
 /*Section Kontakt*/
 #kontakt {
   background-color: #212529;
@@ -6064,7 +6060,7 @@ a.close.disabled {
 .carousel-indicators li {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 100px;
+  width: 30px;
   height: 3px;
   margin-right: 3px;
   margin-left: 3px;
