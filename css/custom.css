@@ -93,11 +93,11 @@ ul {
 }
 
 .carousel-inner p {
-  padding: 10px 0;
+  padding: 20px 10px;
 }
 
 #storytelling {
-  padding: 0 10%;
+  padding: 0 10% 30px;
 }
 
 .card {
